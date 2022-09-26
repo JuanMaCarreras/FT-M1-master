@@ -29,6 +29,7 @@ LinkedList.prototype.add = function (value){
     this.head = node;
 
   }else{
+    
     let current = this.head;
 
     while(current.next){

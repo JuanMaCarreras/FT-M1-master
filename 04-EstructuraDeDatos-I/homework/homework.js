@@ -45,11 +45,13 @@ function Queue(){
    this.array = []
 } 
 Queue.prototype.enqueue = function(valor){
+
   this.array.push(valor);
 }
 
   Queue.prototype.dequeue = function(){
     if(this.array.length === 0){
+      
       return undefined;
     }
       return this.array.shift();

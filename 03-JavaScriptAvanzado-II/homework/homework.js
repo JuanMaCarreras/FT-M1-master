@@ -23,9 +23,7 @@ function counter() {
     var cont = 0;
 
     return function(){
-
         cont++
-
       return cont
     }
 

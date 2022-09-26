@@ -48,6 +48,7 @@ function mergeSort(array) {
         array.push(izq.shift())
       }
       else{
+        
         array.push(der.shift())
   
       }

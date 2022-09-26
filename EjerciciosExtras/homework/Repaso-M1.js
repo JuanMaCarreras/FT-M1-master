@@ -131,6 +131,7 @@ var mergeQueues = function(queueOne, queueTwo) {
 var closureMult = function(multiplier) {
     // Tu código aca:
     return function(num){
+        
         return num * multiplier;
     }
 }

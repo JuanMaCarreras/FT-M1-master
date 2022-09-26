@@ -22,7 +22,7 @@ function BinarySearchTree(value) {
 BinarySearchTree.prototype.insert =function(nuevoValor){
 
   if(this.value > nuevoValor){
-
+    
     if(!this.left){
         this.left = new BinarySearchTree(nuevoValor);
     }else{
